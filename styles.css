@@ -1,0 +1,36 @@
+/* Reset some default styles for margin and padding */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    background-image: url('logo.jpg');
+    background-size: 500px 500px;
+    background-position: center;
+    height: 500px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+}
+
+/* Style the logo */
+.logo img {
+    height: 50px; /* Adjust the height of the logo */
+}
+
+/* Style the container for the quiz content */
+.container {
+    margin: 20px;
+}
+p {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+/* Style the link text */
+a {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
